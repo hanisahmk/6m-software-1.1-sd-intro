@@ -17,21 +17,18 @@ In this assignment, you will learn to use the developer's tool to inspect the el
 The class name is: elementThree
 
 Content of the css is:
-.elementThree {
+
         padding: 10px;
         background-color: aquamarine;
         text-shadow: 1px 1px white;
         border: gray solid 2px;
         border-radius: 10px;
-      }
-```
+
 
 4. What is the css selector of the fourth element?
 ```
 The css selector is:
-  div:nth-child(6) {
-        color: red;
-      }
+  div:nth-child(6)
 ```
 
 5. What is the code you use to keep the blue box within the purple?
@@ -41,6 +38,7 @@ The css selector is:
         width: 70;
         height: 100%;
         margin: 0;
+        box-sizing: border-box;
       }
 ```
 
